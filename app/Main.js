@@ -1,16 +1,14 @@
 import React, {useState} from 'react';
 import ReactDom from 'react-dom';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import FormWithState from './components/FormWithState'
+
 
 
 
 function Main() {
-  
-
     return (
-       <div>
-         <h1>First React App !</h1>
-       </div>
+       <FormWithState />
     )
 }
 
